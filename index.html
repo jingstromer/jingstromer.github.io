@@ -16,6 +16,10 @@
     <div ng-app="">
  	    <p>My first expression: {{ 5 + 5 }}</p>
     </div>
+    
+    <div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
+      <p>The name is {{ person.lastName }}</p>
+    </div>
 
   </body>
 </html>
