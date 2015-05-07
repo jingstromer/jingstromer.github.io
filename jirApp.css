@@ -1,0 +1,7 @@
+body {
+  font-family: verdana;font-size:8pt;
+  /*background-image: url(test.bmp);*/
+  background-color: #ffffff;
+  color: #333333;
+  margin-top:12px; margin-left:16px; margin-right:0px; margin-bottom:12px;
+}
