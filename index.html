@@ -9,7 +9,7 @@
   <body >
     <h1>{{"Hojt!"}}</h1>
     
-    <div  ng-app="">
+    <div  ng-app="jirApp">
  	    <p>°C to °F: <input type="text" ng-model="degrees"></p>
  	    
  	    <p ng-bind="degrees"></p>
@@ -27,6 +27,8 @@
     <div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
       <p>The name is {{ person.lastName }}</p>
     </div>
+
+    <input type="text"/>
 
   </body>
 </html>
