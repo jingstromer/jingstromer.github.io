@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="jirApp">
+<html>
   <head>
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
     <script type="text/javascript" src="angular.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <!--script type="text/javascript" src="app.js"></script-->
+    <script type="text/javascript">
+      var app = angular.module('jirApp', [])
+    </script>
   </head>
-  <body>
+  <body ng-app="jirApp">
     <h1>{{"Hello!"}}</h1>
   </body>
 </html>
