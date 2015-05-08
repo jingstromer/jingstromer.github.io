@@ -9,10 +9,10 @@
   <body ng-app="jirApp">
     <h1>{{"Hojt!"}}</h1>
     
-    <div>
- 	    <p>°C to °F: <input type="text" ng-model="degrees"></p>
+    <div ng-controller ="jirController as ctrl">
+ 	    <p>°C to °F: <input type="text" ng-model="celsius"></p>
  	    
- 	    <p ng-bind="degrees"></p>
+ 	    <p ng-bind="fCalc"></p>
     </div>
     
     <div>
