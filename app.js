@@ -6,8 +6,8 @@
   });
 
   var fcCalculator = {
-    celsius: 0;
-    fahrenheit: 0;
+    celsius: 0,
+    fahrenheit: 0
     /*
     fCalc: function () {
       fahrenheit = 32 + (9/5) * celsius;
