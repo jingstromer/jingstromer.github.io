@@ -1,10 +1,10 @@
 (function(){
   var app = angular.module('jirApp', []);
-/*
-  app.controller('JirController', function() {
-    this.fcCalc = fcCalculator;
-  });
 
+  app.controller('JirController', function() {
+    //this.fcCalc = fcCalculator;
+  });
+/*
   var fcCalculator = {
     celsius: 0;
     fahrenheit: 0;
