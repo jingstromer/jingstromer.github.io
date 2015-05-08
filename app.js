@@ -10,9 +10,8 @@
     fahrenheit: 0,
   
     fCalc: function () {
-      //fahrenheit = 32 + (9/5) * celsius;
-      //return fahrenheit;
-      return 3.13;
+      fahrenheit = 32 + (9/5) * celsius;
+      return fahrenheit;
     },
     
      cCalc: function () {
