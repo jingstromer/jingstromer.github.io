@@ -11,8 +11,7 @@
     
     <div ng-controller ="jirController as ctrl">
  	    <p>°C to °F: <input type="text" ng-model="celsius"></p>
- 	    
- 	    <p ng-bind="fCalc"></p>
+ 	    <p>{{fCalc()}}</p>
     </div>
     
     <div>
