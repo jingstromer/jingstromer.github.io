@@ -2,12 +2,19 @@
   var app = angular.module('jirApp', []);
 
   app.controller('JirController', function() {
-    this.fCalc = fCalculator;
+    this.fcCalc = fcCalculator;
   });
 
-  var fCalculator = {
-    calc: function (celsius) {
-      return 32 + (9/5) * celsius;
+  var fcCalculator = {
+    celsius: 0;
+    fahrenheit: 0;
+    fCalc: function () {
+      fahrenheit = 32 + (9/5) * celsius;
+      return fahrenheit;
+    }
+     cCalc: function () {
+      cesius = (fahrenheit - 32) * (5/9);
+      return celsius;
     }
   }
 
