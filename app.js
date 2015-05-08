@@ -1,12 +1,14 @@
 (function(){
-var app = angular.module('jirApp', []);
+  var app = angular.module('jirApp', []);
 
-app.controller('JirController', function() {
-  this.product = degreeCalculator;
-});
+  app.controller('JirController', function() {
+    this.fCalc = fCalculator;
+  });
 
-var degreeCalculator = {
-  fahrenheit: 3.24,
-}
+  var fCalculator = {
+    calc: function (celsius) {
+      return 32 + (9/5) * celsius;
+    }
+  }
 
 })();
