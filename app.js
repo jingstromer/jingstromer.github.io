@@ -7,16 +7,14 @@
 
   var fcCalculator = {
     celsius: 0,
-    fahrenheit: 0,
+    fahrenheit: 32,
   
     fCalc: function () {
       this.fahrenheit = 32 + (9/5) * this.celsius;
-      return this.fahrenheit;
     },
     
      cCalc: function () {
-      cesius = (fahrenheit - 32) * (5/9);
-      return celsius;
+      this.celsius = (this.fahrenheit - 32) * (5/9);
     }
   
   }
