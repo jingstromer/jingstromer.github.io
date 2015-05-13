@@ -24,12 +24,8 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.3;
     background-image: url('https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG');
     background-repeat: repeat;
-    -ms-background-size: repeat;
-    -o-background-size: repeat;
-    -moz-background-size: repeat;
-    -webkit-background-size: repeat;
-    background-size: repeat;
+    background-size: 80px 60px;
 }
