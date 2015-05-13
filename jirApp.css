@@ -1,6 +1,8 @@
 body {
   font-family: verdana;font-size:8pt;
   background-image: url(https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG);
+  background-size: 80px 60px;
+  background-repeat: repeat;
   color: #333333;
   margin-top:12px; margin-left:16px; margin-right:0px; margin-bottom:12px;
 }
