@@ -11,7 +11,7 @@ body {
 
 .my-container {
     position: relative;
-    background: #5C97FF;
+    background: #FFFFFF;
     overflow: hidden;
 }
 /* You could use :after - it doesn't really matter */
@@ -27,5 +27,5 @@ body {
     opacity: 0.3;
     background-image: url('https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG');
     background-repeat: repeat;
-    background-size: 80px 60px;
+    background-size: 160px 120px;
 }
