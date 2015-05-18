@@ -20,7 +20,7 @@ body {
     height: 100%;
 }
 /* You could use :after - it doesn't really matter */
-.my-container:before {
+.my-container:after {
     content: ' ';
     display: block;
     position: absolute;
