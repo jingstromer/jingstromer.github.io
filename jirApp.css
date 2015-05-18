@@ -28,7 +28,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: -1;
     opacity: 0.3;
     background-image: url('https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG');
     background-repeat: repeat;
