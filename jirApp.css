@@ -34,11 +34,3 @@ body {
     background-repeat: repeat;
     background-size: 320px 240px;
 }
-
-div * {
-  /*z-index: 20;*/
-}
-
-.onTop {
-  /*z-index: 20;*/
-}
