@@ -36,9 +36,9 @@ body {
 }
 
 div * {
-  z-index: 20;
+  /*z-index: 20;*/
 }
 
 .onTop {
-  z-index: 20;
+  /*z-index: 20;*/
 }
