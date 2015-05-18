@@ -35,6 +35,10 @@ body {
     background-size: 320px 240px;
 }
 
+div * {
+  z-index: 0;
+}
+
 .onTop {
   z-index: 20;
 }
