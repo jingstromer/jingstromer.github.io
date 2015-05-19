@@ -13,8 +13,12 @@ body {
 
 
 @keyframes animatedBackground {
+	/*
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
+	*/
+	from { opacity: 0.1; }
+	to { opacity: 0.4; }
 }
 
 .my-container {
@@ -42,9 +46,9 @@ body {
     
     /* start animation
     background-position: 0px 0px;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x; */
     animation: animatedBackground 40s linear infinite;
-    */
+    
 }
 
 
