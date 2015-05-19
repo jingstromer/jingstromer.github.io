@@ -37,12 +37,14 @@ body {
     z-index: -1;
     opacity: 0.3;
     background-image: url('https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG');
-    /*background-repeat: repeat;*/
+    background-repeat: repeat;
     background-size: 320px 240px;
     
+    /* start animation
     background-position: 0px 0px;
-	   background-repeat: repeat-x;
+    background-repeat: repeat-x;
     animation: animatedBackground 40s linear infinite;
+    */
 }
 
 
