@@ -46,8 +46,11 @@ body {
     
     /* start animation
     background-position: 0px 0px;
-    background-repeat: repeat-x; */
-    animation: animatedBackground 40s linear infinite;
+    background-repeat: repeat-x;
+    animation: animatedBackground 40s linear infinite;  */
+    
+    animation-name: animatedBackground;
+    animation-duration: 4s;
     
 }
 
