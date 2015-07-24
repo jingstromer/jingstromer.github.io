@@ -17,7 +17,7 @@ body {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 	*/
-	from { opacity: 0.1; }
+	from { opacity: 0; }
 	to { opacity: 0.3; }
 }
 
@@ -39,7 +39,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    /* opacity: 0.3; */
+    opacity: 0.3;
     background-image: url('https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG');
     background-repeat: repeat;
     background-size: 320px 240px;
@@ -50,8 +50,8 @@ body {
     animation: animatedBackground 40s linear infinite;  */
     
     animation-name: animatedBackground;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    /*animation-iteration-count: infinite;*/
 }
 
 
