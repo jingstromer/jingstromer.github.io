@@ -23,7 +23,7 @@ body {
 
 .my-container {
     /* position: relative; */
-    background: #FFFFFF;
+    background: #000000;
     /*
     overflow: hidden;*/
     width: 100%;
@@ -50,7 +50,7 @@ body {
     animation: animatedBackground 40s linear infinite;  */
     
     animation-name: animatedBackground;
-    animation-duration: 20s;
+    animation-duration: 60s;
     
 }
 
