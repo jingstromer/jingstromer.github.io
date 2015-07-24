@@ -54,7 +54,7 @@ body {
     /*animation-iteration-count: infinite;*/
 }
 
-.imageDiv {
+#imageDiv {
     width: 300px;
     background-image: url('https://cloud.githubusercontent.com/assets/12273355/7612278/fde8fdb6-f989-11e4-9b9f-abf533d51621.JPG');
     -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
@@ -62,7 +62,7 @@ body {
     transition: opacity 2s;
 }
 
-.imageDiv:hover {
+#imageDiv:hover {
     opacity: 1.0;
 }
 
