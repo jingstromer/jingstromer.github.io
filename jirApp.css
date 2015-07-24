@@ -50,8 +50,8 @@ body {
     animation: animatedBackground 40s linear infinite;  */
     
     animation-name: animatedBackground;
-    animation-duration: 60s;
-    
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 
