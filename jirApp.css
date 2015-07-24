@@ -17,8 +17,8 @@ body {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 	*/
-	from { opacity: 0.05; }
-	to { opacity: 0.4; }
+	from { opacity: 0.1; }
+	to { opacity: 0.3; }
 }
 
 .my-container {
@@ -50,7 +50,7 @@ body {
     animation: animatedBackground 40s linear infinite;  */
     
     animation-name: animatedBackground;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
