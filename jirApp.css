@@ -17,8 +17,13 @@ body {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 	*/
+	/*
 	from { opacity: 0; }
 	to { opacity: 0.3; }
+	*/
+	0% { opacity: 0; }
+	50% { opacity: 0.3; }
+	100% { opacity: 0; }
 }
 
 .my-container {
@@ -50,8 +55,8 @@ body {
     animation: animatedBackground 40s linear infinite;  */
     
     animation-name: animatedBackground;
-    animation-duration: 120s;
-    /*animation-iteration-count: infinite;*/
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 #imageDiv {
